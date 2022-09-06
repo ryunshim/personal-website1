@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Ryun Shim's Website</title>
+    <link rel="icon" type="image/x-icon" href="./assets/fav.png">
+    <link rel="stylesheet" href="css/project.css" />
+    <link rel="stylesheet" href="css/hecarion.css" />
+</head>
+
+<body>
+    <div class="main lab-main">
+        <div id="header">
+        </div>
+        <div class="banner-div">
+            <img src="./assets/hecarion/hecarion.svg" class="hecarion-banner" />
+        </div>
+        <div class="body">
+            <div class="project-details">
+                <div>
+                    <div class="project-details-title">
+                        Role
+                    </div>
+                    <div>
+                        Product Designer
+                    </div>
+                </div>
+                <div>
+                    <div class="project-details-title">
+                        Team
+                    </div>
+                    <div>
+                        <div><span class="ryun-red">Fangcong Yin</span>, UX Researcher</div>
+                        <div><span class="ryun-red">Margia Rounok</span>, UX Researcher & Initial Character Designer
+                        </div>
+                        <div><span class="ryun-red">Christian Boswell</span>, UX Researcher</div>
+                    </div>
+                </div>
+                <div>
+                    <div></div>
+                    <div class="project-details-title">
+                        Tool
+                    </div>
+                    <div>
+                        Figma
+                    </div>
+                </div>
+                <div>
+                    <div class="project-details-title">
+                        Timeline
+                    </div>
+                    <div>
+                        Sept 2021- Dec 2021
+                    </div>
+                </div>
+            </div>
+            <div class="project-body project-body-1">
+                <div class="section">
+                    <h1 class="section-title">
+                        It must be stopped.
+                    </h1>
+                    <div class="section-desc">
+                        <div>
+                            According to the FBI’s data, in 2020
+                        </div>
+                        <div class="bold-red">
+                            Anti-Asian hate crimes rose 73%
+                        </div>
+                        <div>
+                            with <span class="bold-red">279 reported hate crimes</span> in 2020 compared to 161 in 2019.
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h1 class="section-title">
+                        How might we offer reassurance during complex situations as everyone’s response to crisis is
+                        vastly different?
+                    </h1>
+                    <div class="section-desc">
+                        Through this project, our group aims to understand the root issue of campus safety and what
+                        types of support should be provided specifically for Asian American students living off-campus.
+                        We hope to examine past trends that have led to the rise in feeling unsafe and the impact of
+                        culture regarding unreported incidents within the Asian community.
+                    </div>
+                </div>
+            </div>
+            <div class="caption-flex">
+                <div class="planning-bar row-flex">
+                    <div class="plan-cell">
+                        <div class="plan-cell-icon">
+                            <img src="assets/project/recognize.svg" />
+                        </div>
+                        <div class="plan-cell-text">
+                            <div class="plan-cell-title">
+                                Recognize
+                            </div>
+                            <ul class="plan-cell-desc">
+                                <li>Locating issue</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-cell">
+                        <div class="plan-cell-icon">
+                            <img src="assets/project/understand.svg" />
+                        </div>
+                        <div class="plan-cell-text">
+                            <div class="plan-cell-title">
+                                Understand
+                            </div>
+                            <ul class="plan-cell-desc">
+                                <li>User group</li>
+                                <li>Market Research</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-cell">
+                        <div class="plan-cell-icon">
+                            <img src="assets/project/exploration.svg" />
+                        </div>
+                        <div class="plan-cell-text">
+                            <div class="plan-cell-title">
+                                Exploration
+                            </div>
+                            <ul class="plan-cell-desc">
+                                <li>Initial prototypes and iterations</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-cell">
+                        <div class="plan-cell-icon">
+                            <img src="assets/project/testing.svg" />
+                        </div>
+                        <div class="plan-cell-text">
+                            <div class="plan-cell-title">
+                                Testing
+                            </div>
+                            <ul class="plan-cell-desc">
+                                <li>Prototype feedback & testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-cell">
+                        <div class="plan-cell-icon">
+                            <img src="assets/project/execute.svg" />
+                        </div>
+                        <div class="plan-cell-text">
+                            <div class="plan-cell-title">
+                                Execute
+                            </div>
+                            <ul class="plan-cell-desc">
+                                <li>Finalizing</li>
+                                <li>Implementation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-cell">
+                        <div class="plan-cell-icon">
+                            <img src="assets/project/growth.svg" />
+                        </div>
+                        <div class="plan-cell-text">
+                            <div class="plan-cell-title">
+                                Growth
+                            </div>
+                            <ul class="plan-cell-desc">
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    Diagram of project process
+                </div>
+            </div>
+            <div class="project-body">
+                <div class="section">
+                    <h1 class="section-title">
+                        sec1
+                    </h1>
+                    <div class="section-desc">
+                        desc
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dummy-space"></div>
+        <div id="footer">
+        </div>
+    </div>
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/headers.js"></script>
+    <script type="text/javascript">
+        enableHeader("#work");
+    </script>
+</body>
+
+</html>

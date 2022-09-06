@@ -1,0 +1,39 @@
+.lab-title {
+    color: #4E7B11;
+}
+
+.lab-banner {
+    width: 100%;
+    filter: drop-shadow(0 25.33px 20px #5E980F4D)
+}
+
+.icon-examples {
+    margin-top: 28px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+/* .icon-bar{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.problem-statement {
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+
+.grid-img {
+    margin-top: 32px;
+}
+
+.grid-img>img {
+    width: 280px;
+}
+
+.double-img {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 60px -24px 0;
+}

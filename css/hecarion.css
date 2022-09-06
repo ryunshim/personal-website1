@@ -1,0 +1,92 @@
+.banner-div {
+    margin-top: 0;
+}
+
+.hecarion-banner {
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.planning-margins {
+    margin: 60px 0;
+}
+
+.interview-results {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.interview-results>div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.interview-results>div>div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.affinity-diag {
+    margin-top: 32px;
+}
+
+.semibold-bigger {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.two-by-two {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 32px;
+}
+
+.three-flex {
+    margin: 8px -98px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 0 0;
+    gap: 32px 32px;
+}
+
+.two-by-two>* {
+    flex: 0 0 calc(50% - 16px);
+}
+
+.two-pane {
+    display: flex;
+    gap: 32px;
+}
+
+.two-pane-col {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.user-pane {
+    margin-top: 4px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.person-bio {
+    margin-top: 8px;
+}
+
+.ideation-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 28px;
+}

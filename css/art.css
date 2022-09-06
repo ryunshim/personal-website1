@@ -1,0 +1,193 @@
+@import url('./styles.css');
+
+.art-nav {
+    margin: 0 0 64px;
+}
+
+.art-header {
+    color: #FBFBFB;
+}
+
+.art-top {
+    height: 100vh;
+    background: conic-gradient(from 230deg at 71.04% 118.59%, #99CADE 37.48deg, #FDB0C4 177.29deg, #F296E9 181.87deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.art-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    /* height: 1200px; */
+}
+
+.art-navtabs {
+    background-color: transparent;
+}
+
+.downarrow {
+    width: 36px;
+    margin-bottom: 108px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.artrow {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.artrow img {
+    max-width: none;
+    min-width: 0;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.m24 {
+    margin-bottom: 24px;
+}
+
+.artshowcase {
+    border-radius: 12px;
+    position: relative;
+    flex: 1 1 0;
+}
+
+.artshowcase * {
+    border-radius: 12px;
+}
+
+.artoverlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0, rgba(0, 0, 0, 0) 50%);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #FBFBFB
+}
+
+.overlaytitle {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.overlaytag {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.overlaytext {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    text-transform: uppercase;
+}
+
+.selectedart {
+    margin-bottom: 136px;
+}
+
+.otherworks {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 28px;
+}
+
+.carousel2 {
+    overflow: hidden;
+    margin-right: -32px;
+    /* margin: 0 104px; */
+    margin: 0 -16px;
+}
+
+.carousel-wrapper2 {
+    padding: 0 104px;
+    position: relative;
+}
+
+.slide {
+    margin: 0 16px;
+}
+
+.carr {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 36px);
+    width: 72px;
+    cursor: pointer;
+}
+
+.narr {
+    right: 0;
+}
+
+.parr {
+    left: 0;
+}
+
+.modal {
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+}
+
+.modal-dialog {
+    margin: 100px 216px !important;
+    max-width: calc(100vw - 512px) !important;
+    max-height: calc(100vh - 200px) !important;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+    width: 100%;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.carousel-wrapper {
+    padding: 0;
+    box-shadow: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.modal-content span {
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    padding: 20px 142px;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel {
+    max-width: calc(100% - 142px);
+    max-height: calc(100% - 40px);
+    min-width: 0 !important;
+    min-height: 0 !important;
+}
+
+.carousel * {
+    max-width: calc(100% - 142px);
+    max-height: calc(100% - 40px);
+    min-width: 0 !important;
+    min-height: 0 !important;
+}

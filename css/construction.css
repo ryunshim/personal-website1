@@ -1,0 +1,21 @@
+@import url('./styles.css');
+.check-back {
+    max-width: 580px;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 800px) {
+    .check-back {
+        margin-top: 100px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    .check-back {
+        margin-top: 40px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+}

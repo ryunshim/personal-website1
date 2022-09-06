@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Ryun Shim's Website</title>
+    <link rel="icon" type="image/x-icon" href="/assets/fav.png">
+    <link rel="stylesheet" href="/css/project.css" />
+    <link rel="stylesheet" href="/css/tavus.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main lab-main">
+        <div id="header">
+        </div>
+        <div class="banner-div">
+            <img src="/assets/tavus/banner.svg" class="tavus-banner" />
+        </div>
+        <div class="body">
+            <div class="project-details">
+                <div>
+                    <div class="project-details-title">
+                        Role
+                    </div>
+                    <div>
+                        Product Manager/Product Designer
+                    </div>
+                </div>
+                <div>
+                    <div class="project-details-title">
+                        Team
+                    </div>
+                    <div>
+                        <div><span class="ryun-red">Eddy Liu</span>, Design Lead</div>
+                        <div><span class="ryun-red">Flora Liang</span>, Product Designer</div>
+                        <div><span class="ryun-red">Jade Eggleston</span>, Product Designer</div>
+                        <div><span class="ryun-red">Jaime Tran</span>, Product Designer</div>
+                        <div><span class="ryun-red">Serina Oh</span>, Product Designer</div>
+                        <div><span class="ryun-red">Tiffany Lee</span>, Product Designer</div>
+                    </div>
+                </div>
+                <div>
+                    <div></div>
+                    <div class="project-details-title">
+                        Tool
+                    </div>
+                    <div>
+                        Figma
+                    </div>
+                    <div>
+                        Miro
+                    </div>
+                </div>
+                <div>
+                    <div class="project-details-title">
+                        Timeline
+                    </div>
+                    <div>
+                        Feb 2022-May 2022
+                    </div>
+                </div>
+            </div>
+            <div class="project-body project-body-1">
+                <div class="section">
+                    <h1 class="section-title">
+                        What is Tavus?
+                    </h1>
+                    <div class="section-desc">
+                        <div>
+                            Tavus is a Y Combinator startup that concentrates on employing highly tailored AI outreach to broaden its customer base. Tavus makes customisation affordable and time efficient due to its AI.
+                        </div>
+                <div class="section">
+                    <h1 class="section-title">
+                        Project Goals
+                    </h1>
+                    <div class="section-desc">
+                        <div>
+                            The main business needs were:
+                        </div>
+                        <div>
+                            1. Rebrand user experience and mitigate frustrations when navigating website
+                        </div>
+                        <div>
+                            2. Establish a better user flow
+                        </div>
+                    </div>
+                <div class="section">
+                    <h1 class="section-title">
+                        My Role
+                    </h1>
+                    <div class="section-desc">
+                        <div>
+                            The Tavus website was redesigned over the course of a semester under my direction with a team of 6 designers. To ensure team productivity and project completion, I created and tracked a work plan that includes the project scope, dates, and deliverables. By setting up meetings and creating regular project status reports, I encouraged communication between clients and consultants to make sure project progress always matched customer expectations.
+                        </div>
+
+                <iframe src="https://pitch.com/embed/e0147e0b-c8e5-4d69-ab29-96b3aaaac04c" allow="fullscreen" allowfullscreen="" width="560" height="368" style="border:0"></iframe>
+                <div class="section">
+                    <h1 class="section-title">
+                        Key Takeaways
+                    </h1>
+                    <div class="section-desc">
+                        <div>
+                            • As it was my first role as a product manager, and it taught me the value of clearly outlining the product's scope and setting expectations. 
+                        </div>
+                        <div>
+                            • How to manage a group of novice designers even when individuals are hard to reach and lack communication or progress.
+                        </div>
+                        <div>
+                            • What it means to be a Y Combinator startup, how it impacts decisions, and how to best suit the company's needs.
+                        </div>
+                        <div>
+                            • How to best appoint tasks based on the strengths and shortcomings of designers.
+                        </div>
+            </div>
+        </div>
+        <div class="dummy-space"></div>
+        <div id="footer">
+        </div>
+    </div>
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/headers.js"></script>
+    <script type="text/javascript">
+        enableHeader("#work");
+        $(function () {
+            $('.carousel.lazy-load').bind('slide.bs.carousel', function (e) {
+                var image = $(e.relatedTarget).find('img[data-src]');
+                image.attr('src', image.data('src'));
+                image.removeAttr('data-src');
+            });
+        });
+    </script>
+</body>
+
+</html>

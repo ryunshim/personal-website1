@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Ryun Shim's Website</title>
+  <link rel="icon" type="image/x-icon" href="/assets/fav.png">
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div id="header">
+    </div>
+    <div class="body">
+      <div class="header">
+        <image src="/assets/point.svg" class="point" />
+        <div class="right-header">
+          <image src="/assets/point.svg" class="mobile-point" />
+          <span class="nice-to-meet">Nice to meet you!</span>
+          <span class="a-little-more">A little more about me...</span>
+        </div>
+      </div>
+      <div class="main-desc">
+        <div class="blurb">
+          <div class="blurb-main">
+            <div class="increased-line-height">
+              With a background in fine arts, I am a third-year student at <span class="med-text">Cornell University</span> pursuing a B.A. in Information Science with a minor in Game Design.
+            </div>
+            <div class="increased-line-height">
+              fter enrolling in a student-run Digital Product Design course in college, I immediately understood that creating ubiquitous applications and curating unforgettable experiences are paths I want to pursue.
+            </div>
+            <div class="increased-line-height">
+              I aspire to incorporate the emotive elements of visual design while supporting the design with user research to develop solutions that aid user needs. I wish to empower communities with easily accessible products by empathizing with users and following one's holistic journey.
+            </div>
+          </div>
+          <div class="mobile-imgdiv">
+            <image src="/assets/ryunpicture.png" class="ryun" />
+          </div>
+          <div class="blurb-subtext">
+            Currently, designing at Cornell Lab of Ornithology and Co-President of Cornell Creatives.
+          </div>
+        </div>
+        <div class="imgdiv">
+          <image src="/assets/ryun.svg" class="ryun" />
+        </div>
+      </div>
+    </div>
+    <div class="heart-div">
+      <div class="heart-top-border">
+        <div class="expanding-gray">
+        </div>
+        <div class="heart-section">
+          <img src="/assets/heart.svg" />
+        </div>
+        <div class="expanding-gray">
+        </div>
+      </div>
+      <div class="heart-words">
+        <div class="heart-scroller marquee">
+          <span>planning</span>
+          <span>creative problem solving</span>
+          <span>sound of rain</span>
+          <span>working with a tech team</span>
+          <span>rnb</span>
+          <span>bubble tea</span>
+          <span>dogs</span>
+          <span>prototyping</span>
+          <span>women in tech</span>
+          <span>art museums</span>
+          <span>sunsets</span>
+          <span>arcades</span>
+          <span>color schemes</span>
+          <span>cafe hopping</span>
+          <span>skincare</span>
+          <span>8px grid</span>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="more">
+        Interested in knowing more?
+      </div>
+      <div>
+        Shoot me an email at <a href="mailto:rs2279@cornell.edu" class="ryun-red">rs2279@cornell.edu</a> if you want to
+        <br class="hidemobile" />
+        chat about my work or
+        grab bubble tea.
+      </div>
+    </div>
+    <div class="dummy-space"></div>
+    <div id="footer">
+    </div>
+  </div>
+  <script src="/scripts/jquery.js"></script>
+  <script src="/scripts/jquery-marquee.js"></script>
+  <script src="/scripts/headers.js"></script>
+  <script type="text/javascript">
+    $('.marquee').marquee({
+      duplicated: true,
+      gap: 0,
+      delayBeforeStart: 0,
+      speed: screen.width >= 556 ? 100 : 50,
+      direction: "right",
+      startVisible: true,
+    });
+    enableHeader("#about");
+  </script>
+</body>
+
+</html>

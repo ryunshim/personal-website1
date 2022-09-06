@@ -1,0 +1,222 @@
+@import url("./styles.css");
+
+.banner-div {
+    margin-top: 36px;
+    margin-bottom: 88px;
+}
+
+.lab-main {
+    line-height: 35px;
+}
+
+.project-details {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+}
+
+.project-details>div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1 1 268px;
+}
+
+.project-details-title {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.project-body {
+    margin: 0 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.project-body-1 {
+    margin-top: 44px;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.section-title {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-desc {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.caption-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    font-size: 24px;
+    align-items: center;
+}
+
+.caption {
+    color: #D6D3D3;
+    text-align: center;
+}
+
+.bold-red {
+    color: #d44747;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planning-bar {
+    position: relative;
+}
+
+.planning-bar:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid black;
+    width: calc(5 / 6 * (100% - 5 * 24px) + 5 * 24px);
+}
+
+.plan-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 1 calc((100% - 5 * 24px) / 6)
+}
+
+.plan-cell-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+
+.plan-cell-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.plan-cell-desc {
+    font-size: 18px;
+    line-height: 36px;
+    margin: 0;
+    padding-inline-start: 20px;
+}
+
+.user-section-title {
+    margin: 0 312px 16px;
+}
+
+.user-section {
+    margin: 0 208px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.user-pane {
+    display: flex;
+    gap: 32px;
+}
+
+.user-pic {
+    flex: 0 0 calc(384 / 424);
+}
+
+.user-info {
+    flex: 0 0 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.person-pane {
+    display: flex;
+    flex-direction: column;
+}
+
+.pane-section {
+    gap: 12px;
+}
+
+.user-title {
+    font-size: 28px;
+    color: #d44747;
+    font-weight: bold;
+}
+
+.user-name {
+    font-weight: 800;
+}
+
+.user-quote {
+    font-style: italic;
+    line-height: 24px;
+    margin: 8px 0 16px;
+}
+
+.user-stats>div {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.user-stats span {
+    display: inline-block;
+    flex: 0 0 140px;
+}
+
+.inv-margin {
+    margin: 0 -312px;
+}
+
+.user-title-correction {
+    margin: 0 312px;
+}
+
+.full-width {
+    margin: 0 -128px;
+}
+
+.gap32 {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
